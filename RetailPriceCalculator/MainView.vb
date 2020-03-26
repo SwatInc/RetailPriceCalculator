@@ -1,11 +1,13 @@
-﻿Imports DevExpress.XtraBars
+﻿Imports DevExpress.Skins
+Imports DevExpress.XtraBars
 Imports PriceCalculator
 
 Public Class MainView
     Public Sub New()
 
         InitializeComponent()
-
+        SkinManager.EnableFormSkins()
+        SkinManager.EnableMdiFormSkins()
         'Subscribe for events
         AddHandler BarButtonItemOpenCart.ItemClick, AddressOf BarButtonItemOpenCartItemClick
     End Sub
