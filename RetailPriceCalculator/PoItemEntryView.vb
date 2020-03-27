@@ -23,6 +23,15 @@ Public Class PoItemEntryView
         Me.LookUpEditSearchItem.Properties.DisplayMember = NameOf(Item.Description)
         Me.LookUpEditSearchItem.Properties.ValueMember = NameOf(Item.Barcode)
 
+        'SearchButton
 
+        'Cart
+        GridControlCart.DataSource = _viewModel.CartItems
+
+        'SubTotal
+
+        'Total Tax
+
+        'Grand Total
     End Sub
 End Class

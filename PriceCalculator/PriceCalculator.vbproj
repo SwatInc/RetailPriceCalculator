@@ -64,8 +64,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cart.vb" />
-    <Compile Include="Item.vb" />
+    <Compile Include="Models\Cart.vb" />
+    <Compile Include="Models\Item.vb" />
+    <Compile Include="Models\ItemDetails.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -81,8 +82,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PoItemEntryViewModel.vb" />
-    <Compile Include="Store.vb" />
+    <Compile Include="ViewModels\PoItemEntryViewModel.vb" />
+    <Compile Include="Models\Store.vb" />
+    <Compile Include="Tax.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
